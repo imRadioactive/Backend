@@ -1,0 +1,17 @@
+{
+  "name": "urlshort",
+  "version": "1.0.0",
+  "description": "shorten url",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  }
+}
