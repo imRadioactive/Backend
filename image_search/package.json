@@ -1,0 +1,21 @@
+{
+  "name": "image_search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "fotology": "^1.2.2",
+    "fotology-x": "^1.2.4",
+    "g-i-s": "^2.0.0",
+    "google-image-search": "^0.1.0",
+    "google-images": "^2.1.0",
+    "google-search": "0.0.5",
+    "mongodb": "^2.2.29"
+  }
+}
