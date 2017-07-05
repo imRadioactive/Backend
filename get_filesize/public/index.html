@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>shorturl service</title>
+    <meta name="description" content="Some stuff">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<style>
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+input{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3px 5px;
+    margin: 0 5vw;
+    transition: all 0.1s linear 0s;
+}
+
+form{
+    width: 80vw;
+    display: inline-block;
+}
+
+input#file:hover{
+    background-color: #bdc3c7;
+}
+
+input#submit:hover{
+    background-color: #bdc3c7;
+}
+
+</style>
+</head>
+
+<body >
+    <main>
+        <h1>upload A FILE AND GET ITS SIZE</h1>
+        <form action="/get_size" method="post" enctype="multipart/form-data">
+            <input name="file_upload" type="file" id="file">
+
+            <input type="submit" name="submit" id="submit">
+        </form>
+<script>
+
+</script>
+<!-- <script src="public/client.js"> -->
+</script>
+</body>
+</html>
